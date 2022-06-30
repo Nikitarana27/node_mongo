@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="img">
+            <img src="undraw_doctors_hwty.svg" alt="BG">
+        </div>
+    
+        <div class="login-content">
+    
+            <form  action="/api/v1/signup" method="post">
+    
+                <div class="title-container">
+                    <h1>SignUp</h1>
+                    <h2>Welcome :) </h2>
+                    <p>Enter your personal detail and start journey with us.</p>
+                </div>
+    
+    
+                <div class="login-inner-content">
+
+                    <div class="input-div one">
+                        <div class="i">
+                        </div>
+                        <div class="div">
+                            <!-- <h5>Name</h5> -->
+                            <input type="text" class="input" placeholder="Name" name="name">
+                        </div>
+                    </div>
+    
+                    <div class="input-div one">
+                        <div class="i">
+                        </div>
+                        <div class="div">
+                            <!-- <h5>User id</h5> -->
+                            <input type="text" class="input" placeholder="User Id" name="userid">
+                        </div>
+                    </div>
+
+                    <div class="input-div one">
+                        <div class="i">
+                        </div>
+                        <div class="div">
+                            <!-- <h5>User id</h5> -->
+                            <input type="text" class="input" placeholder="Email" name="emailID">
+                        </div>
+                    </div>
+
+                    <div class="input-div pass">
+                      <div class="i">
+                    </div>
+                        <div class="div">
+                            <!-- <h5>Password</h5> -->
+                            <input id="pswrd" type="password" class="input" placeholder="Password" name="password">
+                        </div>
+                    </div>
+
+                    <div class="input-div one">
+                        <div class="i">
+                        </div>
+                        <div class="div">
+                            <!-- <h5>Confirm Password</h5> -->
+                            <input type="password" class="input" id="pswrd" placeholder="Confirm Password" name="cpassword">
+                        </div>
+                    </div>
+    
+                    <a href="#">Forgot password</a>
+    
+                </div>
+    
+                <input type="submit" class="btn" value="Register Now">
+    
+                <h5>Alreay have account? <a href="index.html" target="_self">login account</a></h5>
+    
+            </form>
+        </div>
+    </div>
+    <script src="../app.js"></script>
+</body>
+</html>
